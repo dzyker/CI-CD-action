@@ -9,5 +9,5 @@ services:
     image: containrrr/watchtower
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    command: --intervar 30
+    command: --interval 10
     restart: always
